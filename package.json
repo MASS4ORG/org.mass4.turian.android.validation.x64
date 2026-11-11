@@ -1,0 +1,24 @@
+{
+  "id": "org.mass4.turian.android.validation.x64",
+  "version": "1.0.0",
+  "displayName": "Android Vulkan Validation (x64)",
+  "description": "Khronos Vulkan validation layer for x86_64, packaged only into Android development builds.",
+  "author": "MASS4",
+  "license": "Apache-2.0",
+  "clientOnly": true,
+  "categories": ["turian:platform"],
+  "keywords": ["android", "vulkan", "validation", "x64"],
+  "dependencies": {
+    "org.mass4.turian.android.validation": "^1.0.0"
+  },
+  "exclude": [
+    ".github",
+    ".gitignore",
+    ".local",
+    ".script-*.py",
+    ".script-*.cs",
+    ".script-*.sh",
+    ".script-*.ps1"
+  ],
+  "bake": "none"
+}
